@@ -30,7 +30,7 @@ public class MainController {
         return "index";
     }
 
-    @RequestMapping(value = { "/personList" }, method = RequestMethod.GET)
+    @RequestMapping(value = { "/testList" }, method = RequestMethod.GET)
     public String viewPersonList(Model model) {
 
         model.addAttribute("persons", persons);
